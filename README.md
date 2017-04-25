@@ -1,6 +1,6 @@
 # npmtest-charm
 
-#### test coverage for  [charm (v1.0.2)](https://github.com/substack/node-charm#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-charm.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-charm) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-charm.svg)](https://travis-ci.org/npmtest/node-npmtest-charm)
+#### basic test coverage for  [charm (v1.0.2)](https://github.com/substack/node-charm#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-charm.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-charm) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-charm.svg)](https://travis-ci.org/npmtest/node-npmtest-charm)
 
 #### ansi control sequences for terminal cursor hopping and colors
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-charm/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-charm/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-charm/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-charm/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-charm/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-charm/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-charm/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-charm/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-charm/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-charm/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-charm/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-charm/build/coverage.html/index.html)
 
@@ -88,7 +88,8 @@
         "url": "git+ssh://git@github.com/substack/node-charm.git"
     },
     "scripts": {},
-    "version": "1.0.2"
+    "version": "1.0.2",
+    "bin": {}
 }
 ```
 
